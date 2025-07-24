@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 1: Koding dan Kecerdasan Artifisial</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+        }
+        .card-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        .card-body {
+            padding: 1.5rem;
+        }
+        .section {
+            margin-bottom: 1.5rem;
+        }
+        .section-title {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        ul, ol {
+            padding-left: 1.5rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .highlight {
+            background-color: #e3f2fd;
+            padding: 1rem;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+            margin: 1rem 0;
+        }
+        .element-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .element-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            border: 1px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+        .element-card:hover {
+            background: #e3f2fd;
+            border-color: #667eea;
+        }
+        .element-title {
+            font-weight: bold;
+            color: #764ba2;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .element-grid {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modul 1: Koding dan Kecerdasan Artifisial</h1>
+        <div class="subtitle">Pengenalan Mata Pelajaran pada Kurikulum Nasional</div>
+    </header>
+
+    <div class="container">
+        <!-- Deskripsi Umum -->
+        <div class="card">
+            <div class="card-header">Deskripsi Umum Modul</div>
+            <div class="card-body">
+                <div class="section">
+                    <h3 class="section-title">Capaian Pelatihan</h3>
+                    <ul>
+                        <li>Mendefinisikan konsep dasar koding dan kecerdasan artifisial</li>
+                        <li>Menerapkan konsep koding dan kecerdasan artifisial dalam pembelajaran</li>
+                        <li>Menyusun pembelajaran koding dan kecerdasan artifisial yang berkontribusi pada pencapaian dimensi profil lulusan</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Tujuan Pelatihan</h3>
+                    <ol>
+                        <li>Mendefinisikan konsep dasar koding dan kecerdasan artifisial</li>
+                        <li>Menerapkan konsep koding dan kecerdasan artifisial dalam proses pembelajaran</li>
+                        <li>Menyusun pembelajaran koding dan kecerdasan artifisial yang berkontribusi pada pencapaian dimensi profil lulusan</li>
+                        <li>Mengembangkan nilai-nilai etik dalam koding dan kecerdasan artifisial</li>
+                    </ol>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Pokok Bahasan</h3>
+                    <ul>
+                        <li>Pengantar mata pelajaran Koding dan Kecerdasan Artifisial</li>
+                        <li>Konsep keilmuan Koding dan Kecerdasan Artifisial</li>
+                        <li>Implementasi pembelajaran di sekolah</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pengantar Mata Pelajaran -->
+        <div class="card">
+            <div class="card-header">Pengantar Mata Pelajaran Koding dan Kecerdasan Artifisial</div>
+            <div class="card-body">
+                <div class="section">
+                    <h3 class="section-title">Rasional</h3>
+                    <ul>
+                        <li>Integrasi koding dan kecerdasan artifisial mendukung pembangunan nasional</li>
+                        <li>Mengasah keterampilan abad ke-21 (berpikir kritis, kreativitas, pemecahan masalah)</li>
+                        <li>Menciptakan peluang ekonomi baru</li>
+                        <li>Mendorong inovasi</li>
+                        <li>Memperkuat pemerataan akses pendidikan</li>
+                        <li>Menjaga identitas nasional</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Tujuan Mata Pelajaran</h3>
+                    <ul>
+                        <li>Memampukan peserta didik terampil berpikir komputasional</li>
+                        <li>Cakap dan bijak sebagai warga digital yang literat dan beretika</li>
+                        <li>Terampil mengelola dan memanfaatkan data</li>
+                        <li>Terampil berkarya melalui koding dan pemanfaatan kecerdasan artifisial</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Karakteristik</h3>
+                    <ul>
+                        <li>Menanamkan etika</li>
+                        <li>Pembelajaran kontekstual</li>
+                        <li>Dapat dilaksanakan secara internet-based, plugged, dan unplugged</li>
+                        <li>Menggunakan pendekatan human-centered</li>
+                        <li>Menekankan penguasaan kompetensi pra-dasar (SD)</li>
+                        <li>Praktik mendalam berpikir komputasional dan literasi digital (SMP-SMA/SMK)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elemen Koding dan Kecerdasan Artifisial -->
+        <div class="card">
+            <div class="card-header">Elemen Koding dan Kecerdasan Artifisial</div>
+            <div class="card-body">
+                <div class="element-grid">
+                    <div class="element-card">
+                        <div class="element-title">Berpikir Komputasional</div>
+                        <p>Keterampilan problem solving berjenjang melalui pemodelan dan simulasi.</p>
+                    </div>
+                    <div class="element-card">
+                        <div class="element-title">Literasi Digital</div>
+                        <p>Kecakapan bermedia digital dengan fokus produksi dan diseminasi konten, etika, dan keamanan digital.</p>
+                    </div>
+                    <div class="element-card">
+                        <div class="element-title">Literasi dan Etika Kecerdasan Artifisial</div>
+                        <p>Memahami konsep dasar, cara kerja, manfaat, dampak, serta sikap kritis dan etika dalam pemanfaatan kecerdasan artifisial.</p>
+                    </div>
+                    <div class="element-card">
+                        <div class="element-title">Pemanfaatan dan Pengembangan Kecerdasan Artifisial</div>
+                        <p>Kemampuan memanfaatkan kecerdasan artifisial untuk penyelesaian masalah dan peningkatan efisiensi, serta menciptakan dan memperbaiki sistem kecerdasan artifisial.</p>
+                    </div>
+                    <div class="element-card">
+                        <div class="element-title">Algoritma dan Pemrograman</div>
+                        <p>Mengembangkan solusi dengan membaca dan menulis teks algoritmik terstruktur menjadi instruksi berdasarkan paradigma pemrograman.</p>
+                    </div>
+                    <div class="element-card">
+                        <div class="element-title">Analisis Data</div>
+                        <p>Kemampuan menstrukturkan, menginput, memproses (menganalisis, mengambil kesimpulan, membuat keputusan, memprediksi), dan menyajikan data.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Konsep Keilmuan -->
+        <div class="card">
+            <div class="card-header">Konsep Keilmuan Koding dan Kecerdasan Artifisial</div>
+            <div class="card-body">
+                <div class="section">
+                    <h3 class="section-title">Koding dan Pemrograman</h3>
+                    <div class="highlight">
+                        <p><strong>Koding</strong> adalah proses mengonversi keinginan manusia menjadi format yang dipahami komputer.</p>
+                        <p><strong>Pemrograman</strong> mencakup seluruh siklus pengembangan perangkat lunak (perencanaan, analisis, desain, implementasi, pengujian, pemeliharaan). Koding adalah bagian dari pemrograman.</p>
+                    </div>
+                    <p>Pembelajaran koding dapat dilakukan secara:</p>
+                    <ul>
+                        <li><strong>Plugged</strong>: Dengan komputer dan perangkat lunak</li>
+                        <li><strong>Unplugged</strong>: Tanpa komputer, menggunakan aktivitas fisik</li>
+                        <li><strong>Internet-based</strong>: Melalui platform online</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Kecerdasan Artifisial (KA)</h3>
+                    <p>Bidang ilmu komputer yang mengembangkan sistem yang dapat melaksanakan tugas-tugas yang umumnya memerlukan kecerdasan manusia seperti pengenalan pola, pengambilan keputusan, dan pemrosesan bahasa alami.</p>
+                    
+                    <div class="highlight">
+                        <p><strong>Sejarah KA</strong>: Dimulai dari Turing Test (1950), Konferensi Dartmouth (1956), "musim semi KA", "musim dingin KA", hingga kebangkitan kembali sejak 2000-an.</p>
+                    </div>
+                    
+                    <p><strong>Konsep keilmuan KA</strong> mencakup:</p>
+                    <ul>
+                        <li>Narrow AI</li>
+                        <li>General AI</li>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elemen dalam Koding dan Kecerdasan Artifisial -->
+        <div class="card">
+            <div class="card-header">Elemen dalam Koding dan Kecerdasan Artifisial</div>
+            <div class="card-body">
+                <div class="section">
+                    <h3 class="section-title">Berpikir Komputasional</h3>
+                    <p>Keterampilan dasar yang dapat diterapkan secara universal, terdiri dari empat pilar:</p>
+                    <ul>
+                        <li><strong>Dekomposisi</strong>: Memecah masalah menjadi bagian-bagian kecil</li>
+                        <li><strong>Pengenalan Pola</strong>: Identifikasi kesamaan dan tren</li>
+                        <li><strong>Abstraksi</strong>: Menyaring informasi yang tidak perlu</li>
+                        <li><strong>Algoritma</strong>: Urutan instruksi logis untuk menyelesaikan masalah</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Literasi dan Etika Kecerdasan Artifisial</h3>
+                    <ul>
+                        <li><strong>Lanskap KA</strong>: Memahami Machine Learning, Deep Learning, dan Generative AI</li>
+                        <li><strong>Pemahaman Fundamental</strong>: KA adalah sistem komputer yang meniru kemampuan kognitif manusia, belajar dari data, dan membuat keputusan</li>
+                        <li><strong>Etika KA</strong>: Pentingnya keadilan, akuntabilitas, dan transparansi</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Pemanfaatan dan Pengembangan Kecerdasan Artifisial</h3>
+                    <p><strong>Sekolah Dasar</strong>: Pengenalan konsep sederhana dan aplikatif (pengenalan gambar, permainan edukatif)</p>
+                    <p><strong>Sekolah Menengah</strong>: Pemanfaatan konsep dan teknik lebih kompleks (analisis data, pemecahan masalah, proyek berbasis KA, KA generatif sebagai asisten)</p>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Algoritma dan Pemrograman</h3>
+                    <ul>
+                        <li><strong>Definisi</strong>: Program adalah rangkaian perintah untuk komputer; algoritma adalah cara sistematis menyelesaikan masalah</li>
+                        <li><strong>Representasi Algoritma</strong>: Tulisan biasa, diagram alir (flowchart), atau pseudocode</li>
+                        <li><strong>Kategori Bahasa Pemrograman</strong>: Bahasa Mesin, Bahasa Assembly, Bahasa Tingkat Tinggi</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3 class="section-title">Analisis Data</h3>
+                    <p>Proses pemeriksaan, pembersihan, transformasi, dan pemodelan data untuk menemukan informasi, mengambil kesimpulan, dan mendukung pengambilan keputusan.</p>
+                    <p><strong>Kategori Analisis Data</strong>:</p>
+                    <ul>
+                        <li>Deskriptif: Menggambarkan data</li>
+                        <li>Diagnostik: Mendeteksi penyebab</li>
+                        <li>Prediktif: Meramalkan masa depan</li>
+                        <li>Preskriptif: Menentukan langkah optimal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Modul 1: Koding dan Kecerdasan Artifisial - Kurikulum Nasional SMA/SMK</p>
+    </footer>
+</body>
+</html>
